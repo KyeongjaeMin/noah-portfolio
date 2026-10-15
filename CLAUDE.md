@@ -50,7 +50,21 @@
 - ⚠ Vercel Hobby(무료)는 공식 정책상 **비상업용 전용**이고, "서비스 판매 홍보"도 상업용으로 봄. 본격 영업용으로 쓰면 Vercel Pro 또는 다른 호스팅 검토 필요 → 최신 정책을 확인해서 알려줄 것.
 - 배포 후 `index.html` 의 `og:image`, `og:url` 을 **전체 주소(https://...)** 로 바꿔야 카카오톡 미리보기 카드가 뜸.
 
-## 남은 확인 사항 (영준에게 받아야 함)
-- 이메일, 인스타그램 아이디, 활동 지역 표기(현재 Toronto)
+## 반영 대기 — 영준 프로필 정보 (2026-10-15 받음, 다음 작업 때 한 번에 반영)
+`src/data/site.ts` 의 ⚠ 임시값을 아래로 교체하고, What I Make 띠·문의 문구도 맞춰 수정할 것.
+| 항목 | 값 |
+|---|---|
+| 이메일 | dudwns2125@gmail.com |
+| 인스타그램 | @noahyoun → https://www.instagram.com/noahyoun/ |
+| 활동 지역 | Based in Oakville (시계 시간대는 America/Toronto 그대로 — 같은 온타리오 주) |
+
+받는 작업 종류 (영준이 정한 분류 — 두 묶음 구조 그대로 살릴 것)
+- **01. WORKS**: Films · Commercials · Fashion Films · Music Videos · Documentaries · Visual Projects
+- **02. EXPERTISE**: Directing · Cinematography · Editing · Color Grading · Creative Direction
+
+반영 아이디어: 지금의 'What I Make' 흐르는 띠를 WORKS / EXPERTISE 두 줄로 나누거나, 문의(Contact) 섹션 위에 두 칸 목록으로 배치.
+
+## 남은 확인 사항
 - Discontinue 부제 표기 확인
 - Busan Pork Cutlet 원본 영상
+- 인스타 아이디 철자(noahyoun)가 크레딧 표기(Noah Yoon)와 다른데 의도된 것인지
